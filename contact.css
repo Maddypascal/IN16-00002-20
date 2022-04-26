@@ -1,0 +1,125 @@
+*{
+margin:0;
+padding:0
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cont{
+min-height:100vh;
+width:100%;
+background-image:linear-gradient(blueviolet, transparent), url("project images/phone.jpg");
+background-position:center;
+background-size:cover;
+position:relative;
+border-radius: 60px;
+}
+.menu ul li{
+
+	list-style: none;
+	display:inline-block;
+	padding:10px 10px;
+	position: relative;
+}
+.menu ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.menu ul li::after{
+	content: '';
+	width: 0;
+	height: 2px;
+	background: white;
+	display: block;
+	margin: auto;
+}
+.menu ul li:hover::after{
+	width: 100%;
+	transition: 1s;
+}
+.info h1{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+.info p{
+	line-height: 1.2em;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	
+}
+.hlink{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: blueviolet;
+	border: 3px solid; white;
+	font-size: 20px;
+	padding:12px 34px ;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.hlink:hover{
+	color: white;
+	border: 5px solid whitesmoke;
+	background: purple;
+	transition: 1s;
+}
+.email{
+	padding: 20px;
+	text-align: center;
+	background-color: floralwhite;
+	border-radius: 60px;
+}
+.LK{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: blueviolet;
+	border: 3px solid; white;
+	font-size: 20px;
+	padding:12px 34px ;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.LK:hover{
+	color: white;
+	border: 5px solid whitesmoke;
+	background: purple;
+	transition: 1s;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.soclink{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
